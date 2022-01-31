@@ -7,6 +7,7 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #f5f5f4;
+    color: #333;
 }
 
 .main-header {
@@ -24,14 +25,13 @@ body {
 }
 
 .main-heading {
-    color: #fff;
-    text-align: center;
+    color: #e7e5e4;
     font-size: 58px;
     margin-bottom: 20px;
 }
 
 .main-text {
-    color: #fff;
+    color: #e7e5e4;
 }
 
 .heading-h2 {
@@ -52,21 +52,23 @@ body {
     flex-flow: column;
     border-radius: 6px;
     overflow: hidden;
-    transition: all 0.5s;
-}
-
-.card:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transform: scale(1.05);
+    transition: all 0.5s;
 }
 
 .card-img {
     max-width: 400px;
+    overflow: hidden;
 }
 
 .card-img img {
-    width: 100%;
     display: block;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.card-img img:hover {
+    transform: scale(1.1);
 }
 
 .card a {
@@ -79,5 +81,5 @@ body {
     align-items: center;
     padding: 15px;
     background-color: #292524;
-    color: #fff;
+    color: #e7e5e4;
 }
