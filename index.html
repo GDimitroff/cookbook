@@ -5,17 +5,21 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Cookbook</title>
+        <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
-        <header>
-            <h1>Cookbook</h1>
+        <header class="main-header">
+            <h1 class="main-heading">Cookbook</h1>
+            <p class="main-text">This cookbook will pull you off the sofa and into the kitchen</p>
         </header>
 
-        <h2>Choose your favorite dish...</h2>
-        <ul>
-            <li><a href="./recipes/tiramisu.html">Tiramisu</a></li>
-            <li><a href="./recipes/lasagna.html">Lasagna</a></li>
-            <li><a href="./recipes/pizza.html">Pizza</a></li>
-        </ul>
+        <section class="recipes">
+            <h2>Choose your favorite dish...</h2>
+            <div class="card">
+                <a href="./recipes/tiramisu.html">Tiramisu</a>
+            </div>
+            <div class="card"><a href="./recipes/lasagna.html">Lasagna</a></div>
+            <div class="card"><a href="./recipes/pizza.html">Pizza</a></div>
+        </section>
     </body>
 </html>
