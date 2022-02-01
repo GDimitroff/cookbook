@@ -1,47 +1,55 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
 }
 
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #f5f5f4;
     color: #333;
+    font-size: 1.6rem;
+    overflow: scroll;
 }
 
-.main-header {
-    max-width: 1300px;
-    height: 350px;
+.header {
+    max-width: 125rem;
+    height: 35rem;
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px auto 50px auto;
+    margin: 5rem auto;
     background-image: url('./images/vegetables.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 6px;
 }
 
-.main-heading {
+.heading-primary {
     color: #e7e5e4;
-    font-size: 58px;
-    margin-bottom: 20px;
+    font-size: 5.8rem;
+    margin-bottom: 2rem;
 }
 
-.main-text {
+.header p {
     color: #e7e5e4;
 }
 
-.heading-h2 {
+.heading-secondary {
+    flex: 1 1 100%;
+    margin-bottom: 2rem;
     text-align: center;
-    margin-bottom: 20px;
 }
 
-.recipes {
-    max-width: 1300px;
+.section-recipes {
+    max-width: 130rem;
     margin: 0 auto;
+    padding: 0 3.2rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
